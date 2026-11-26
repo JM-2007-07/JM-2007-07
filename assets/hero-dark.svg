@@ -1,0 +1,59 @@
+<svg width="840" height="176" viewBox="0 0 840 176" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Manishvar Jalilov — Frontend Engineer">
+  <defs>
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#30363D" fill-opacity="0.55" />
+    </pattern>
+    <radialGradient id="top-glow" cx="88%" cy="18%" r="58%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16" />
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.7" />
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#30363D" stop-opacity="0.65" />
+    </linearGradient>
+    <clipPath id="frame-clip">
+      <rect x="0.5" y="0.5" width="839" height="175" rx="12" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame-clip)">
+    <!-- Base Surface -->
+    <rect x="0.5" y="0.5" width="839" height="175" rx="12" fill="#0F141B" />
+    <!-- Subtle Architectural Dot Matrix -->
+    <rect x="0" y="0" width="840" height="176" fill="url(#dot-grid)" />
+    <!-- Soft Ambient Corner Glow -->
+    <rect x="0" y="0" width="840" height="176" fill="url(#top-glow)" />
+
+    <!-- Subtle Geometric Monogram Emblem (Right Side) -->
+    <g transform="translate(748, 54)" opacity="0.95">
+      <rect x="0" y="0" width="60" height="60" rx="12" fill="#141B24" stroke="#2B3440" stroke-width="1" />
+      <rect x="5" y="5" width="50" height="50" rx="8" fill="none" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="1" />
+      <text x="30" y="36" text-anchor="middle" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="600" letter-spacing="1">MJ</text>
+    </g>
+
+    <!-- Top Metadata Bar -->
+    <g>
+      <rect x="32" y="24" width="194" height="24" rx="12" fill="#13251B" stroke="#238636" stroke-opacity="0.55" stroke-width="1" />
+      <circle cx="46" cy="36" r="3.5" fill="#3FB950" />
+      <text x="57" y="40" fill="#56D364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="0.4">OPEN TO WORK &amp; PROJECTS</text>
+
+      <text x="808" y="40" text-anchor="end" fill="#7D8590" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.3">DUSHANBE, TJ · UTC+5 · REMOTE</text>
+    </g>
+
+    <!-- Name & Role -->
+    <text x="32" y="92" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="-0.6">Manishvar Jalilov</text>
+    <text x="32" y="118" fill="#9EA7B3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Frontend Engineer — React, Next.js &amp; TypeScript</text>
+
+    <!-- Hairline Accent Divider -->
+    <line x1="32" y1="138" x2="808" y2="138" stroke="url(#accent-line)" stroke-width="1" />
+
+    <!-- Bottom Focus Line -->
+    <text x="32" y="159" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">Shipping real web products end-to-end</text>
+    <text x="808" y="159" text-anchor="end" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">Expanding into Node.js &amp; PostgreSQL</text>
+  </g>
+
+  <!-- Crisp Outer Hairline Border -->
+  <rect x="0.5" y="0.5" width="839" height="175" rx="12" stroke="#26303D" stroke-width="1" />
+</svg>
